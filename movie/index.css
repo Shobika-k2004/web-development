@@ -1,0 +1,152 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Times New Roman', Times, serif;
+
+}
+body{
+    background-color: black;
+    color:black;
+    
+   
+
+}
+.header{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url("https://applemagazine.com/wp-content/uploads/2022/03/Netflix-adds-long-awaited-app-function.jpg");
+    background-size: cover;
+    background-position:center;
+    image:no-repeat;
+    width:73%;
+    height: 600px;
+    padding:12px 12%;
+    position:relative;
+
+
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:90px,0;
+
+}
+
+nav button{
+    border:0;
+    outline:0;
+    background: #db0001;
+    color:aliceblue;
+    padding:6px,10px;
+    border-radius:4px;
+    font-size:20px;
+    cursor:pointer;
+
+}
+
+.header-content{
+    position:absolute;
+
+    top:20%;
+    left:30%;
+    text-align:center;
+    margin-top:100px;
+    color:white;
+    justify-content: space-between;
+     
+}
+.header-content h1{
+    font-size:60px;
+    line-height:70px;
+    font-weight:70px;
+    max-width:650px;
+
+}
+.header-content h2{
+    font-size:60px;
+    line-height:70px;
+    font-weight:70px;
+    max-width:650px;
+
+}
+.header-content h3{
+    font-size:30px;
+    line-height:30px;
+    font-weight:70px;
+    max-width:650px;
+
+}
+.email{
+    border-radius: 4px;
+    background:white;
+    border:0;
+    margin-top:30px;
+
+}
+
+.email input{
+    flex:0;
+    border:0;
+    outline:0;
+    margin-left:20px;;
+}
+
+.card {
+    padding: 14px;
+    text-align: center;
+    text-align:space-between;
+  }
+.card h4 {
+    color: white;
+    text-align: center;
+  }
+  
+.card p {
+    font-family: verdana;
+    color:aliceblue;
+    font-size:small;
+  }
+.card button{
+    cursor:pointer;
+    border:0;
+    outline:0;
+    text-align:space-between;
+    padding:3px 6px;
+    color:blue;
+    background-color: #db0001;
+
+}
+.img{
+    max-width:100%;
+    min-width:100%;
+}
+.tab1cards {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+
+.vedio{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url("https://media.tenor.com/6hCjCSULlPMAAAAC/sonic-the-hedgehog-sonic.gif");
+
+ 
+    background-size: cover;
+    background-position:center;
+    image:no-repeat;
+    width:73%;
+    height: 600px;
+    padding:12px 12%;
+    position:relative;
+}
+.vedio text h2{
+    color: #db0001;
+}
+.vedio button{
+    cursor:pointer;
+
+}
+p{
+    color:red;
+    text-align:center;
+    top:100%;
+}
